@@ -5,8 +5,9 @@
 
 fn main() {
 
+    
     let i =1;
     let x= i*32;
     println!("Number {}", x);
-    
+
 }
