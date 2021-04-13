@@ -17,7 +17,6 @@ fn isColorValid(red: i16, green: i16, blue: i16) -> bool {
     range.contains(&red) && range.contains(&green) && range.contains(&blue)
 }
 
-// I AM NOT DONE
 
 // Your task is to complete this implementation
 // and return an Ok result of inner type Color.

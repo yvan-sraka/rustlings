@@ -7,7 +7,6 @@
 //         Try to ensure it returns a single string.
 // As always, there are hints if you execute `rustlings hint iterators2`!
 
-// I AM NOT DONE
 
 pub fn capitalize_first(input: &str) -> String {
     let mut c = input.chars();

@@ -16,7 +16,6 @@
 //
 // Execute `rustlings hint box1` for hints :)
 
-// I AM NOT DONE
 
 #[derive(PartialEq, Debug)]
 pub enum List {
