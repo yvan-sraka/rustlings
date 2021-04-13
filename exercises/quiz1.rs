@@ -10,7 +10,24 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn ..... {
+fn main() {
+    println!("{}",calculate_apple_price(35));
+    println!("{}",calculate_apple_price(65));
+
+}
+
+
+fn calculate_apple_price(num_apple : u32) -> u32{
+
+    if num_apple < 40{
+        return num_apple*2;
+    }
+    else{
+        return num_apple;
+    }
+
+}
+
 
 // Don't modify this function!
 #[test]
