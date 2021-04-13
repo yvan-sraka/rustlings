@@ -10,7 +10,13 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn ..... {
+fn calculate_apple_price(count: i32) -> i32 {
+    if count <= 40 {
+        count * 2
+    } else {
+        count
+    }
+}
 
 // Don't modify this function!
 #[test]
