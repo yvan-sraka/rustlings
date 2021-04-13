@@ -3,7 +3,7 @@
 
 // I AM NOT DONE
 
-struct Wrapper {
+struct Wrapper{
     value: u32,
 }
 
