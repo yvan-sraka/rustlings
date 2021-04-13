@@ -4,8 +4,8 @@
 // I AM NOT DONE
 
 fn main() {
-    let number = "T-H-R-E-E";
-    println!("Spell a Number : {}", number);
-    number = 3;
-    println!("Number plus two is : {}", number + 2);
+    let number_ = "T-H-R-E-E";
+    println!("Spell a Number : {}", number_);
+    let number = 3;
+    println!("Number plus two is : {}",number + 2);
 }
