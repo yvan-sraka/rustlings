@@ -1,10 +1,12 @@
 // enums3.rs
 // Address all the TODOs to make the tests pass!
 
-// I AM NOT DONE
-
 enum Message {
     // TODO: implement the message variant types based on their usage below
+    Move (Point),
+    Echo(String),
+    ChangeColor((i32, i32, i32)),
+    Quit
 }
 
 struct Point {
@@ -37,6 +39,17 @@ impl State {
 
     fn process(&mut self, message: Message) {
         // TODO: create a match expression to process the different message variants
+        match message {
+            Message::Move(Point) => self.move_position(Point),
+            Message::Echo(String) => self.echo(String),
+            Message::ChangeColor((a, b, c)) => {
+                let d: u8 = a as u8;
+                let e: u8 = b as u8;
+                let f: u8 = c as u8;
+                self.change_color((d, e, f))
+            },
+            Message::Quit => self.quit()
+        }
     }
 }
 
