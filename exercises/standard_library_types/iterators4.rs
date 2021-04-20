@@ -1,8 +1,11 @@
 // iterators4.rs
 
-// I AM NOT DONE
-
 pub fn factorial(num: u64) -> u64 {
+    if num == 1 {
+        1
+    } else {
+        num * factorial(num-1)
+    }
     // Complete this function to return the factorial of num
     // Do not use:
     // - return
