@@ -5,8 +5,7 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
-
+    let a :[i32;5] = [1,5,4,7,8];
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
     } else {
