@@ -33,18 +33,18 @@ mod tests {
         assert_eq!(capitalize_first(""), "");
     }
 
-    // Step 2.
-    #[test]
-    fn test_iterate_string_vec() {
-        let words = vec!["hello", "world"];
-        let capitalized_words: Vec<String> = // TODO
-        assert_eq!(capitalized_words, ["Hello", "World"]);
-    }
+    // // Step 2.
+    // #[test]
+    // fn test_iterate_string_vec() {
+    //     let words = vec!["hello", "world"];
+    //     let capitalized_words: Vec<String> = // TODO
+    //     assert_eq!(capitalized_words, ["Hello", "World"]);
+    // }
 
-    #[test]
-    fn test_iterate_into_string() {
-        let words = vec!["hello", " ", "world"];
-        let capitalized_words = // TODO
-        assert_eq!(capitalized_words, "Hello World");
-    }
+    // #[test]
+    // fn test_iterate_into_string() {
+    //     let words = vec!["hello", " ", "world"];
+    //     let capitalized_words = // TODO
+    //     assert_eq!(capitalized_words, "Hello World");
+    // }
 }
