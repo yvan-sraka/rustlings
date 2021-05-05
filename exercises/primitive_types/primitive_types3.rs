@@ -2,10 +2,11 @@
 // Create an array with at least 100 elements in it where the ??? is.
 // Execute `rustlings hint primitive_types3` for hints!
 
-// I AM NOT DONE
-
 fn main() {
-    let a = ???
+    let mut a = [1,2,3];
+    for i in 0..3{
+        a[i] = i;
+    }
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
