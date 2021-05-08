@@ -9,7 +9,8 @@
 
 // I AM NOT DONE
 
-pub fn capitalize_first(input: &str) -> String {
+pub fn capitalize_first(input: &str) -> String
+{
     let mut c = input.chars();
     match c.next() {
 
