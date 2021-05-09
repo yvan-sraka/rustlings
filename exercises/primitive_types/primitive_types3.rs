@@ -2,10 +2,12 @@
 // Create an array with at least 100 elements in it where the ??? is.
 // Execute `rustlings hint primitive_types3` for hints!
 
-// I AM NOT DONE
 
 fn main() {
-    let a = ???
+    //other option
+    // let a = "ssasoifssdsdjsjdijdisjisjijjijiijscnakjcasucoasucbaosucoasubcosuabcoausbcoausbcoausbcoasubcoasubcoasubcoasubcoausbcoasubcoasubcausboausbc";
+
+    let a = ["c'est long"; 120];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
