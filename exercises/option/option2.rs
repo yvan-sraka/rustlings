@@ -1,8 +1,6 @@
 // option2.rs
 // Make me compile! Execute `rustlings hint option2` for hints
 
-// I AM NOT DONE
-
 fn main() {
     let optional_value = Some(String::from("rustlings"));
     // TODO: Make this an if let statement whose value is "Some" type
